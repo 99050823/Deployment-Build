@@ -2,10 +2,10 @@
 
 // Database instellingen
 define('DB_TYPE', 'mysql');		// Wat voor type database gebruik je?
-define('DB_HOST', '127.0.0.1'); // Wat is het IP adres van de server (127.0.0.1 is de lokae machine)
-define('DB_NAME', 'manege'); // Wat is de database naam
-define('DB_USER', 'root'); 		// Wat is de database gebruiker
-define('DB_PASS', 'root');			// Wat is het database wachtwoord
+define('DB_HOST', 'br6vc6vztbic0cm64ueo-mysql.services.clever-cloud.com'); // Wat is het IP adres van de server (127.0.0.1 is de lokae machine)
+define('DB_NAME', 'br6vc6vztbic0cm64ueo'); // Wat is de database naam
+define('DB_USER', 'ujhhicpo29qdovgn'); 		// Wat is de database gebruiker
+define('DB_PASS', 'MmKoqXT5TaDzHF7INXbj');			// Wat is het database wachtwoord
 define('DB_CHARSET', 'utf8'); 	// Welke karakterset wordt gebruikt
 
 define('URL_PUBLIC_FOLDER', 'public');	// De public folder is de folder waar alle bestanden in staan die via de adresbalk direct aangevraagd kunnen worden, denk aan CSS, JS, afbeeldingen etc...
