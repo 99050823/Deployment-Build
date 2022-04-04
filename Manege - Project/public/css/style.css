@@ -1,0 +1,63 @@
+.container {
+    margin-top: 20px;
+}
+
+section {
+    background-color: bisque;
+    margin: 0 3cm 20px 3cm;
+    text-align: center;
+    border-radius: 10px;
+}
+
+nav ul li a {
+    color: black;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+form input[type=text] {
+    width: 850px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form input[type=submit] {
+    margin-bottom: 20px;
+}
+
+.users-panel, .rides-panel, .animal-panel {
+    display: grid;
+    width: 800px;
+    grid-template-columns: 200px 200px 200px 200px;
+    margin-left: 4cm;
+    text-align: center;
+}
+
+.user-block, .rides-block, .animal-block {
+    background-color: rgb(69, 184, 69);
+    border-radius: 10px;
+    margin: 0 10px 10px 0;
+    text-align: start;
+}
+
+.user-block p, .rides-block p{
+    margin-left: 10px;
+}
+
+.user-block h3, .rides-block h3 {
+    color: white;
+    text-align: center;
+}
+
+.user-block a, .rides-block a {
+    color: blue;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
